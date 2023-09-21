@@ -1,0 +1,20 @@
+$primary: #1f2023;
+$secondary: #3972e0;
+$secondary-hover: #4491e5;
+$accent: #2f80f3;
+
+$light-gray: #f8f8f8;
+$gray: #b0b0b0;
+$bg-gray: #eff1f5;
+$red: #ff1220;
+
+$font-famaly: "Roboto", sans-serif, "Montserrat", "Helvetica Neue", Helvetica, Arial;
+
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --secondary-hover: #{$secondary-hover};
+  --light-gray: #{$light-gray};
+  --bg-gray: #{$bg-gray};
+  --red: #{$red};
+}

@@ -1,0 +1,19 @@
+.v-main::after {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url("/images/bg.svg");
+  z-index: -1;
+}
+.v-theme--light {
+  --v-theme-background: transparent !important;
+}
+.v-card__text,
+.v-card__title {
+  word-break: normal;
+}
+.w-fix-350 {
+  width:350px!important;
+}

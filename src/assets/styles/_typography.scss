@@ -1,0 +1,119 @@
+body {
+  color: $primary !important;
+  font-family: $font-famaly !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 46px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $primary;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.headline-42 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.headline-32 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.headline-24 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.headline-18 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.headline-16 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.body-18 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.body-16 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.body-14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.body-12 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.label-16 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.label-14 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.label-12 {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+/*! purgecss end ignore */

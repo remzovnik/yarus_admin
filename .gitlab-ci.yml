@@ -1,0 +1,12 @@
+include:
+  - project: infrastructure/yarus/gitlab-ci
+    ref: master
+    file:
+      - .stages.gitlab-ci.yml
+      - .ansible-playbook.gitlab-ci.yml
+      - .build-bridge-static.gitlab-ci.yml
+      - .build-frontend.gitlab-ci.yml
+      - .deploy-frontend-static.gitlab-ci.yml
+variables:
+  PROJECT_DOMAIN: "news.yarus.ru"
+  LIST_ENDPOINT: "['']"
